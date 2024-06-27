@@ -1,14 +1,12 @@
 <template>
     <lightning-card title="My Knowledge Articles">
         <template if:true={articles.data}>
-            <ul class="slds-p-around_medium">
-                <template for:each={articles.data} for:item="article">
-                    <li key={article.Id} class="slds-p-bottom_small">
-                        <p>{article.Title}</p>
-                        <p class="slds-text-color_weak">{article.CreatedDate}</p>
-                    </li>
-                </template>
-            </ul>
+            <lightning-datatable
+                key-field="Id"
+                data={articles.data}
+                columns={columns}
+                hide-checkbox-column="true">
+            </lightning-datatable>
         </template>
         <template if:true={articles.error}>
             <p>{articles.error}</p>
