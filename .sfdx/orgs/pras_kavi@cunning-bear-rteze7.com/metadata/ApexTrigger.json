@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005dL000000xtlFQAQ",
+      "createdByName": "Dittakavi Prashant",
+      "createdDate": "2024-06-01T02:24:50.000Z",
+      "fileName": "triggers/KnowledgeArticleTrigger.trigger",
+      "fullName": "KnowledgeArticleTrigger",
+      "id": "01qdL000000GB17QAG",
+      "lastModifiedById": "005dL000000xtlFQAQ",
+      "lastModifiedByName": "Dittakavi Prashant",
+      "lastModifiedDate": "2024-06-05T04:53:06.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}
